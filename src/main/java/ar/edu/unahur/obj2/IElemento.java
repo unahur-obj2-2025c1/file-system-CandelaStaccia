@@ -7,6 +7,6 @@ public interface IElemento {
 
     void mostrar(Integer identacion);
 
-    IElemento archivoMasPesado();
-
+    Archivo archivoMasPesado();
+    //un archivo se devuelve a si mismo
 }
